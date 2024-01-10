@@ -3,7 +3,6 @@ import requests
 
 app = Flask(__name__)
 api_key = "3872894b98dcca1b68c706330816f1b4"
-
 @app.route('/', methods=['GET', 'POST'])
 def index():
     weather_data = None
