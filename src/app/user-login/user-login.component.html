@@ -1,0 +1,14 @@
+<body>
+<div class = 'container'>
+    <h1>User Login</h1>
+    <form (ngSubmit)="loginUser()">
+      <label class = 'labelWithColor'>Username: </label>
+      <input type="text" name="username" [(ngModel)]="username">
+      <br>
+      <label class = 'labelWithColor'>Password: </label>
+      <input type="password" name="password" [(ngModel)]="password">
+      <br>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</body>
