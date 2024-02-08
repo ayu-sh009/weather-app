@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJwVEHxc3_fzQLu_YubbOm-pVO6DSHLUem8Q&s'); /* Update the path accordingly */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid rgb(244, 18, 18);
+    border-radius: 8px;
+    width: 70%;
+    max-width: 400px;
+    background-color: rgba(232, 130, 130, 0.8);
+    overflow: hidden;
+  }
+  
+  .hello {
+    background-color: rgba(188, 176, 176, 0.8);
+  }
+  
+  h1 {
+    color: rgb(245, 19, 19);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  button {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(78, 67, 67);
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.user-login {
+    background-color: #d26d24;
+  }
+  
+  button.admin-login {
+    background-color: #28a745;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .labelWithColor {
+    color: rgb(242, 1, 1); 
+    padding: 10px;
+  }
+  

@@ -1,0 +1,11 @@
+<div class="admin-dashboard">
+    <h2>Admin Dashboard</h2>
+    <p *ngIf="successMessage" class="success-message">{{ successMessage }}</p>
+    <ul>
+      <li *ngFor="let weather of weatherHistory" class="weather-item">
+        <strong>{{ weather.city }}</strong> - Temperature: {{ weather.temperature }}, Description: {{ weather.description }}
+        <button (click)="deleteWeather(weather.id)" class="delete-button">Delete</button>
+      </li>
+    </ul>
+  </div>
+  

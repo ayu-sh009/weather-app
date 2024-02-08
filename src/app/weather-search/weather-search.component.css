@@ -1,0 +1,54 @@
+/* Style for the Weather Search component */
+
+/* Container styles */
+.weather-search {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  /* Heading styles */
+  .weather-search h2 {
+    color: #007bff; /* Blue heading color */
+  }
+  
+  /* Input styles */
+  .weather-search input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ced4da; /* Light gray border color */
+    border-radius: 4px;
+  }
+  
+  /* Button styles */
+  .weather-search button {
+    padding: 10px 20px;
+    background-color: #28a745; /* Green button background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .weather-search button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  /* Weather info container styles */
+  .weather-info-container {
+    margin-top: 20px;
+  }
+  
+  /* City heading styles */
+  .weather-info-container h3 {
+    color: #007bff; /* Blue city heading color */
+  }
+  
+  /* Temperature and description styles */
+  .weather-info-container p {
+    margin: 5px 0;
+  }
+  

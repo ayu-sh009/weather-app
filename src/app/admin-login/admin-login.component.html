@@ -1,0 +1,14 @@
+<body>
+<div class = 'container'>
+    <h2>Admin Login</h2>
+    <form (ngSubmit)="loginAdmin()">
+      <label class = 'labelWithColor'>Username: </label>
+      <input type="text" name="username" [(ngModel)]="username">
+      <br>
+      <label class = 'labelWithColor'>Password: </label>
+      <input type="password" name="password" [(ngModel)]="password">
+      <br>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</body>
